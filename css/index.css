@@ -330,25 +330,25 @@ div,span,a{ word-wrap: break-word; word-break: normal; word-break:break-all;}
 .swiper-container1 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/2-4.png); }
 .swiper-container1 .swiper-pagination-bullet:nth-of-type(5) { background-image: url(../images/2-5.png); }
 .swiper-container1 .swiper-pagination-bullet:nth-of-type(6) { background-image: url(../images/2-6.png); }
-.swiper-container2 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/2-1.png); }
-.swiper-container2 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/2-2.png); }
-.swiper-container2 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/2-3.png); }
+.swiper-container2 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/3-1.png); }
+.swiper-container2 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/3-2.png); }
+.swiper-container2 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/3-3.png); }
 
-.swiper-container3 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/2-1.png); }
-.swiper-container3 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/2-2.png); }
-.swiper-container3 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/2-3.png); }
-.swiper-container3 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/2-4.png); }
-.swiper-container4 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/2-1.png); }
-.swiper-container4 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/2-2.png); }
-.swiper-container4 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/2-3.png); }
-.swiper-container4 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/2-4.png); }
-.swiper-container4 .swiper-pagination-bullet:nth-of-type(5) { background-image: url(../images/2-5.png); }
-.swiper-container5 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/2-1.png); }
-.swiper-container5 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/2-2.png); }
-.swiper-container5 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/2-3.png); }
-.swiper-container5 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/2-4.png); }
-.swiper-container5 .swiper-pagination-bullet:nth-of-type(5) { background-image: url(../images/2-5.png); }
-.swiper-container5 .swiper-pagination-bullet:nth-of-type(6) { background-image: url(../images/2-6.png); }
+.swiper-container3 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/4-1.png); }
+.swiper-container3 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/4-2.png); }
+.swiper-container3 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/4-3.png); }
+.swiper-container3 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/4-4.png); }
+.swiper-container4 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/5-1.png); }
+.swiper-container4 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/5-2.png); }
+.swiper-container4 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/5-3.png); }
+.swiper-container4 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/5-4.png); }
+.swiper-container4 .swiper-pagination-bullet:nth-of-type(5) { background-image: url(../images/5-5.png); }
+.swiper-container5 .swiper-pagination-bullet:nth-of-type(1) { background-image: url(../images/6-1.png); }
+.swiper-container5 .swiper-pagination-bullet:nth-of-type(2) { background-image: url(../images/6-2.png); }
+.swiper-container5 .swiper-pagination-bullet:nth-of-type(3) { background-image: url(../images/6-3.png); }
+.swiper-container5 .swiper-pagination-bullet:nth-of-type(4) { background-image: url(../images/6-4.png); }
+.swiper-container5 .swiper-pagination-bullet:nth-of-type(5) { background-image: url(../images/6-5.png); }
+.swiper-container5 .swiper-pagination-bullet:nth-of-type(6) { background-image: url(../images/6-6.png); }
 .swiper-container1 .swiper-pagination-fraction, .swiper-container1 .swiper-pagination-custom, .swiper-container1.swiper-container-horizontal > .swiper-pagination-bullets { top: 10px; }
 .swiper-container2 .swiper-pagination-fraction, .swiper-container2 .swiper-pagination-custom, .swiper-container2.swiper-container-horizontal > .swiper-pagination-bullets { top: 10px; }
 .swiper-container3 .swiper-pagination-fraction, .swiper-container3 .swiper-pagination-custom, .swiper-container3.swiper-container-horizontal > .swiper-pagination-bullets { top: 10px; }
