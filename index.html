@@ -3,9 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>狩魔传</title>
-	<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper.css">
 	<script src="https://cdn.bootcss.com/jquery/1.10.1/jquery.js"></script>
-	<script src="js/index.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+    <script type="text/javascript" src="js/jquery.gallery.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
 </head>
 <body>
 	<div class="section section1">
@@ -26,7 +30,25 @@
 			<img src="images/section2.jpg" alt="">
 		</div>
 		<div class="lunbo">
-
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb01.gif" alt=""></span><i class="zb2"><img src="images/yxts/魂器01.gif" alt=""></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb02.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb03.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb04.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb05.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb06.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb07.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb08.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb09.gif" alt=""></span><i class="zb2"></i></div>
+                    <div class="swiper-slide"><span class="zb1"><img src="images/yxzb/zb10.gif" alt=""></span><i class="zb2"></i></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
 		</div>
 	</div>
 	<div class="section section3">
@@ -34,7 +56,28 @@
 			<img src="images/section3.jpg" alt="">
 		</div>
 		<div class="lunbo">
-
+            <ul class="tab">
+                <li class="shen">
+                    <img class="img1" src="" alt="">
+                    <img class="img2" src="" alt="">
+                </li>
+                <li class="hun">
+                    <img class="img1" src="" alt="">
+                    <img class="img2" src="" alt="">
+                </li>
+                <li class="shou">
+                    <img class="img1" src="" alt="">
+                    <img class="img2" src="" alt="">
+                </li>
+                <li class="guan">
+                    <img class="img1" src="" alt="">
+                    <img class="img2" src="" alt="">
+                </li>
+                <li class="qi">
+                    <img class="img1" src="" alt="">
+                    <img class="img2" src="" alt="">
+                </li>
+            </ul>
 		</div>
 	</div>
 	<div class="section section4">
@@ -42,6 +85,37 @@
 			<img src="images/section4.jpg" alt="">
 		</div>
 		<div class="lunbo">
+            <section id="dg-container" class="dg-container">
+
+                <div class="dg-wrapper">
+
+                    <a href="#"><img src="images/yxgn/lunbo1.png" alt="image01"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo2.png" alt="image02"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo3.png" alt="image03"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo4.png" alt="image04"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo5.png" alt="image05"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo6.png" alt="image06"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo9.png" alt="image09"></a>
+
+                    <a href="#"><img src="images/yxgn/lunbo10.png" alt="image10"></a>
+
+                </div>
+
+                <nav>
+
+                    <span class="dg-prev">&lt;</span>
+
+                    <span class="dg-next">&gt;</span>
+
+                </nav
+
+            </section>
 
 		</div>
 	</div>
@@ -68,10 +142,10 @@
                 <s class="icon"></s>
                 <s class="txt"></s>
             </a>
-            <a class="nav nav5" href="javascript:;" title="职业介绍">
+           <!--  <a class="nav nav5" href="javascript:;" title="职业介绍">
                 <s class="icon"></s>
                 <s class="txt"></s>
-            </a>
+            </a> -->
             <a class="nav nav6" href="javascript:;" title="返回顶部">
                 <s class="icon"></s>
             </a>
@@ -79,3 +153,25 @@
     </div>
 </body>
 </html>
+<script type="text/javascript">
+
+    $(function() {
+
+        $('#dg-container').gallery({
+
+            autoplay    :   true
+
+        });
+
+    });
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+    });
+
+</script>
