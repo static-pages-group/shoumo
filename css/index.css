@@ -230,7 +230,7 @@ div,span,a{ word-wrap: break-word; word-break: normal; word-break:break-all;}
     position: relative;
 }
 .dg-wrapper{
-    width: 481px;
+    width: 381px;
     height: 316px;
     margin: 0 auto;
     position: relative;
@@ -246,7 +246,7 @@ div,span,a{ word-wrap: break-word; word-break: normal; word-break:break-all;}
     perspective: 1000px;
 }
 .dg-wrapper a{
-    width: 482px;
+    width: 382px;
     height: 316px;
     display: block;
     position: absolute;
@@ -265,7 +265,7 @@ div,span,a{ word-wrap: break-word; word-break: normal; word-break:break-all;}
 .dg-wrapper a img{
     display: block;
     width: 100%;
-    padding: 41px 0px 0px 1px;
+    padding: 90px 0px 0px 1px;
 }
 .dg-wrapper a div{
     font-style: italic;
@@ -305,11 +305,11 @@ div,span,a{ word-wrap: break-word; word-break: normal; word-break:break-all;}
 }
 .dg-container nav span.dg-prev{
     background: transparent url(../images/arrow5_left_8bcd540.png) no-repeat center;
-    margin-left: 10px;left: 45px;
+    margin-left: 10px;left: 85px;
 }
 .dg-container nav span.dg-next{
     background: transparent url(../images/arrow5_right_c4a4fac.png) no-repeat center;
-    margin-left: 10px;right: 45px;
+    margin-left: 10px;right: 85px;
 }
 .swiper-container { width: 100%; height: 100%; }
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet { margin: 0 !important; }
