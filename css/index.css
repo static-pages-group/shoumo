@@ -1,0 +1,226 @@
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea ,em,i,figure{ padding:0; margin:0;  font-weight: normal;font-style: normal;font-size: 100%; font-family:"微软雅黑",Arial, Helvetica, sans-serif; }
+ol, ul ,li{list-style: none;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+img {border:0;margin:0;padding:0; display:inline-block;vertical-align: middle;}
+a{text-decoration:none; cursor:pointer; color:#0362a7;}
+.clear{clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+div,span,a{ word-wrap: break-word; word-break: normal; word-break:break-all;}
+/*input[disabled], select[disabled], textarea[disabled], input[readonly],  textarea[readonly] {background: #eee; cursor:not-allowed;}*/
+.text_left {text-align: left;}
+.text_right {text-align: right;}
+.text_center {text-align: center;}
+/*.transition,a{ transition:all linear 0.3s;-moz-transition:all linear 0.3s;-ms-transition:all linear 0.3s;-o-transition:all linear 0.3s;-webkit-transition:all linear 0.3s;}*/
+.clearfix{ zoom:1; position:relative; overflow:hidden; display:block;}
+.clearfix:after{ content:" "; position:absolute; width:0px; height:0px; clear:both;}
+/**/
+.container{width: 1200px;margin:0 auto;}
+.section { width: 100%; min-width: 1200px; overflow: hidden; position: relative; }
+.section1 { height: 1080px; }
+.section1 .flash { position: absolute; width: 1920px; height: 1080px; left: 50%; bottom: 0; margin-left: -960px; }
+.section1 .flash .logo { position: absolute; left: 324px; top: 70px; }
+.section1 .flash .slogan { position: absolute; top: 378px; left: 50%; width: 540px; height: 273px; margin-left: -270px;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    opacity: 0 
+}
+.section1 .slogan.slogan1 {
+    background: url(../images/slogan1.png) no-repeat;
+    -webkit-transform: translate3d(-400px,0,0);
+    -moz-transform: translate3d(-400px,0,0);
+    -ms-transform: translate3d(-400px,0,0);
+    -o-transform: translate3d(-400px,0,0);
+    transform: translate3d(-400px,0,0)
+}
+
+.section1 .slogan.slogan2 {
+    background: url(../images/slogan2.png) no-repeat;
+    -webkit-transform: translate3d(400px,0,0);
+    -moz-transform: translate3d(400px,0,0);
+    -ms-transform: translate3d(400px,0,0);
+    -o-transform: translate3d(400px,0,0);
+    transform: translate3d(400px,0,0)
+}
+.section1 .slogan.show {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0)
+}
+.section1 .flash .huanyin { width: 472px; height: 51px; background: url(../images/text.png) no-repeat; position: absolute; top: 644px; left: 50%; margin-left: -250px; }
+.section1 .flash .down { width: 340px; height: 170px; background: url(../images/bg.png) no-repeat; position: absolute; top: 758px; left: 50%; margin-left: -170px; text-align: center; padding-top: 20px; box-sizing: border-box; }
+.section2 { height: 807px; }
+.section2 .flash { position: absolute; width: 1920px; height: 808px; left: 50%; bottom: 0; margin-left: -960px; }
+.section2 .lunbo { position: absolute; width: 1078px; height: 488px; left: 50%; bottom: 133px; margin-left: -526px; background: url(../images/2bg.jpg) no-repeat center; }
+.section3 { height: 805px; }
+.section3 .flash { position: absolute; width: 1920px; height: 808px; left: 50%; bottom: 0; margin-left: -960px; }
+.section3 .lunbo { position: absolute; width: 1078px; height: 488px; left: 50%; bottom: 133px; margin-left: -526px; background: url(../images/3bg.jpg) no-repeat center; }
+.section4 { height: 808px; }
+.section4 .flash { position: absolute; width: 1920px; height: 808px; left: 50%; bottom: 0; margin-left: -960px; }
+.section4 .lunbo { position: absolute; width: 1078px; height: 488px; left: 50%; bottom: 133px; margin-left: -526px; background: url(../images/3bg.jpg) no-repeat center; }
+.footer { width: 100%; height: 496px; background: url(../images/footer.jpg) no-repeat center; position: relative; }
+.footer p { text-align: center; font-size: 12px; color: #5f5f5f; position: relative; top: 425px; }
+.right-nav {
+	position: fixed;
+    right: 40px;
+    width: 44px;
+    height: 494px;
+    top: 50%;
+    margin-top: -247px;
+    z-index: 99;
+    opacity: 0;
+    -webkit-transform: translate3d(100px,0,0);
+    -moz-transform: translate3d(100px,0,0);
+    -ms-transform: translate3d(100px,0,0);
+    -o-transform: translate3d(100px,0,0);
+    transform: translate3d(100px,0,0);
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out
+}
+
+.right-nav.show {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 1
+}
+
+.right-nav .line {
+	position: absolute;
+    top: 2px;
+    right: 21px;
+    width: 2px;
+    height: 494px;
+    background: #e8b471
+}
+
+.right-nav .nav-list {
+    width: 44px;
+    height: 494px;
+    right: 0;
+    top: 0
+}
+
+.right-nav .nav-list .nav {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 0
+}
+
+.right-nav .nav-list .nav .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 44px;
+    height: 44px
+}
+
+.right-nav .nav-list .nav .txt {
+    position: absolute;
+    width: 116px;
+    height: 42px;
+    right: 22px;
+    top: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate3d(10px,0,0);
+    -moz-transform: translate3d(10px,0,0);
+    -ms-transform: translate3d(10px,0,0);
+    -o-transform: translate3d(10px,0,0);
+    transform: translate3d(10px,0,0);
+    opacity: 0;
+    visibility: hidden
+}
+
+.right-nav .nav-list .nav.nav1 {
+    top: 0
+}
+
+.right-nav .nav-list .nav.nav1 .icon {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_btn1_659465e.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav1 .txt {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_txt1_90d1b37.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav2 {
+    top: 92px
+}
+
+.right-nav .nav-list .nav.nav2 .icon {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_btn2_65cb8c9.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav2 .txt {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_txt2_5f7dc2b.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav3 {
+    top: 184px
+}
+
+.right-nav .nav-list .nav.nav3 .icon {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_btn3_1d73baa.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav3 .txt {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_txt3_4564d68.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav4 {
+    top: 276px
+}
+
+.right-nav .nav-list .nav.nav4 .icon {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_btn4_6487b37.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav4 .txt {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_txt4_1f5658d.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav5 {
+    top: 368px
+}
+
+.right-nav .nav-list .nav.nav5 .icon {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_btn5_0241f1d.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav5 .txt {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_txt5_56d10e7.png) no-repeat
+}
+
+.right-nav .nav-list .nav.nav6 {
+    top: 460px
+}
+
+.right-nav .nav-list .nav.nav6 .icon {
+    background: url(https://land.res.netease.com/pc/gw/20170327132011/img/r_top_83d7ee8.png) no-repeat
+}
+
+.right-nav .nav-list .nav:hover .txt,.right-nav .nav-list .nav.cur .txt {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0)
+}
