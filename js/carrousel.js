@@ -50,7 +50,7 @@
             this.current = this.options.current;
             this.isAnim = false;
             this.$items.css({
-                'opacity': 1
+                'opacity': 0
             });
             this._updateWidth();
             this._layout();
@@ -279,9 +279,9 @@
                     case 'hide':
                         return {
                             '-webkit-transform': 'translate(0px) scale(0.7)',
-                            'opacity': 1,
-                            'visibility': 'visible',
-                            'z-index': 1
+                            'opacity': 0,
+                            'visibility': 'hidden',
+                            'z-index': -1
                         };
                         break;
                 }
@@ -295,7 +295,7 @@
                             '-o-transform': 'translate(-' + this.CSSXout + 'px) scale(0.8)',
                             '-ms-transform': 'translate(-' + this.CSSXout + 'px) scale(0.8)',
                             'transform': 'translate(-' + this.CSSXout + 'px) scale(0.8)',
-                            'opacity': 1,
+                            'opacity': 0,
                             'z-index': 2
                         };
                         break;
@@ -306,7 +306,7 @@
                             '-o-transform': 'translate(' + this.CSSXout + 'px) scale(0.8)',
                             '-ms-transform': 'translate(' + this.CSSXout + 'px) scale(0.8)',
                             'transform': 'translate(' + this.CSSXout + 'px) scale(0.8)',
-                            'opacity': 1,
+                            'opacity': 0,
                             'z-index': 2
                         };
                         break;
@@ -352,9 +352,9 @@
                             '-o-transform': 'translate(0px) scale(0.7)',
                             '-ms-transform': 'translate(0px) scale(0.7)',
                             'transform': 'translate(0px) scale(0.7)',
-                            'opacity': 1,
-                            'visibility': 'visible',
-                            'z-index': 1
+                            'opacity': 0,
+                            'visibility': 'hidden',
+                            'z-index': -1
                         }
                         break;
                 }
