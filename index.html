@@ -5,10 +5,11 @@
 	<title>狩魔传</title>
     <link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/swiper.css">
-	<script src="https://cdn.bootcss.com/jquery/1.10.1/jquery.js"></script>
+	<!-- <script src="https://cdn.bootcss.com/jquery/1.10.1/jquery.js"></script> -->
+    <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
-    <script type="text/javascript" src="js/jquery.gallery.js"></script>
+    <!-- <script type="text/javascript" src="js/modernizr.custom.53451.js"></script> -->
+    <script type="text/javascript" src="js/carrousel.js"></script>
     <script type="text/javascript" src="js/swiper.js"></script>
 </head>
 <body>
@@ -174,7 +175,39 @@
 			<img src="images/section4.jpg" alt="">
 		</div>
 		<div class="lunbo">
+            <div class="banner">
             <section id="dg-container" class="dg-container">
+                <div class="dg-wrapper">
+                    <a href="javascript:void(0)">
+                        <img src="images/yxgn/lunbo1.png">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="images/yxgn/lunbo1.png">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="images/yxgn/lunbo1.png">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="images/yxgn/lunbo1.png">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="images/yxgn/lunbo1.png">
+                    </a>
+                </div>
+                <ol class="button" id="lightButton">
+                    <li index="0"></li>
+                    <li index="1"></li>
+                    <li index="2"></li>
+                    <li index="3"></li>
+                    <li index="4"></li>
+                </ol>
+                <nav>
+                    <span class="dg-prev"></span>
+                    <span class="dg-next"></span>
+                </nav>
+            </section>
+        </div>
+            <!-- <section id="dg-container" class="dg-container">
 
                 <div class="dg-wrapper">
 
@@ -202,23 +235,21 @@
 
                     <span class="dg-next">&gt;</span>
 
-                </nav
+                </nav>
 
-                <div class="dot">
-                    <ul>
-                        <li class="on"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+                <ul class="dot">
+                    <li class="on"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
 
             </section>
-
+ -->
 		</div>
 	</div>
 	<div class="footer">
@@ -257,14 +288,12 @@
 </html>
 <script type="text/javascript">
 
-    $(function() {
-
-        $('#dg-container').gallery({
-
-            autoplay    :   true
-
+    $(function () {
+        $('#dg-container').carrousel({
+            current: 0,
+            autoplay: true,
+            interval: 3000
         });
-
     });
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
@@ -355,6 +384,5 @@
         $(".swiper-container5").show().siblings('.swiper-container').hide();
     })
 
-    console.log($(".dg-wrapper a"));
 
 </script>
